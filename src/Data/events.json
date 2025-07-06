@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Orientation",
+    "start": "2024-07-26",
+    "description": "Orientation for new BTech and Preparatory students.",
+    "type": "Orientation",
+    "color": "#f59e0b"
+  },
+  {
+    "title": "Classes Begin",
+    "start": "2024-08-02",
+    "description": "Autumn semester starts.",
+    "type": "Academic",
+    "color": "#3b82f6"
+  },
+  {
+    "title": "Mid Semester Exams",
+    "start": "2024-09-17",
+    "end": "2024-09-24",
+    "description": "Mid Semester Examination period.",
+    "type": "Exam",
+    "color": "#ef4444"
+  },
+  {
+    "title": "End Semester Exams",
+    "start": "2024-11-23",
+    "end": "2024-11-30",
+    "description": "End Semester Examination period.",
+    "type": "Exam",
+    "color": "#8b5cf6"
+  },
+  {
+    "title": "Classes Resume",
+    "start": "2025-01-06",
+    "description": "Spring semester begins.",
+    "type": "Academic",
+    "color": "#10b981"
+  },
+  {
+    "title": "Spring MSE",
+    "start": "2025-03-03",
+    "end": "2025-03-10",
+    "description": "Spring Mid Semester Exams.",
+    "type": "Exam",
+    "color": "#ef4444"
+  },
+  {
+    "title": "Spring ESE",
+    "start": "2025-05-03",
+    "end": "2025-05-10",
+    "description": "Spring End Semester Exams.",
+    "type": "Exam",
+    "color": "#8b5cf6"
+  }
+]

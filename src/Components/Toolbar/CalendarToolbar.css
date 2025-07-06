@@ -1,0 +1,93 @@
+/* CalendarToolbar.css */
+
+.calendar-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+/* Label that shows July 2025 */
+.label-date {
+  font-size: 16px;
+  padding: 6px 12px;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  width: 12vw;
+}
+.TodayButton{
+    font-size: 16px;
+  padding: 6px 12px;
+  background-color: #157ad2;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  width: 8vw;
+}
+
+/* Shared button styles */
+.toolbar-button {
+  font-size: 14px;
+  padding: 6px 12px;
+  min-width: 60px;
+}
+
+/* Month & Year dropdowns */
+.month-dropdown,
+.year-dropdown {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  width:8vw;
+}
+.year-dropdown{
+    width: 6vw;
+}
+
+/* Print button */
+.print-btn {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.Nextbtn {
+    font-size: 25px;
+    padding: 0 2px;
+}
+.Prevbtn{
+    font-size: 25px;
+    padding: 0 2px;
+}
+
+/* Responsive stack on small screens */
+@media (max-width: 576px) {
+  .calendar-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .month-dropdown,
+  .year-dropdown,
+  .print-btn,
+  .toolbar-button {
+    width: 100%;
+  }
+
+  .label-date {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Optional: hide toolbar during print */
+@media print {
+  .calendar-toolbar,
+  .print-btn {
+    display: none !important;
+  }
+}

@@ -1,0 +1,35 @@
+/* FilterPanel.css */
+
+.filters-panel {
+  background-color: #e0eaf7;
+  border-radius: 6px;
+  padding: 10px;
+  width: 15vw;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* ✅ Subtle shadow */
+  transition: box-shadow 0.3s ease;
+  
+}
+
+.filters-panel h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.filters-panel .form-check-label {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #000;
+}
+
+.filters-panel .form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.filters-panel .form-check {
+  margin-bottom: 8px;
+  
+}
+.filters-panel:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* ✅ Slight hover effect */
+}
